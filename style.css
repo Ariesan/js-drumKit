@@ -26,11 +26,10 @@ body {
 }
 
 .key {
-    border: .4rem solid black;
+    border: .3rem solid black;
     border-radius: 1rem;
-    margin: .3rem;
-    font-size: 1.5rem;
-    padding: 1rem .5rem;
+    margin: .2rem;
+    padding: .3rem 0;
     transition: all .07s ease;
     width: 10rem;
     text-align: center;
@@ -41,17 +40,18 @@ body {
 
 .playing {
     transform: scale(1.1);
-    border-color: #ffc600;
+    border-color: chartreuse;
     box-shadow: 0 0 1rem gold;
 }
 
 kbd {
     display: block;
-    font-size: 2rem;    
+    font-size: 1.9rem;    
 }
 
 .sound {
     font-size: .9rem;
     letter-spacing: .1rem;
     color: chartreuse;
+    font-weight: bold;
 }
