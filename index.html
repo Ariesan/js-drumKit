@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="keys bg">
+        <div class="key" data-key="65">
+            <kbd>A</kbd> <!--kbd is to define text as keyboard input-->
+            <span class="sound">Clap</span>
+        </div>
+
+        <div class="key" data-key="83">
+            <kbd>S</kbd> 
+            <span class="sound">Hihat</span>
+        </div>
+
+        <div class="key" data-key="68">
+            <kbd>D</kbd> 
+            <span class="sound">Kick</span>
+        </div>
+
+        <div class="key" data-key="70">
+            <kbd>F</kbd> 
+            <span class="sound">OpenHat</span>
+        </div>
+    </div>
+
+    <audio src="./sound/clap.wav" data-key="65"></audio>
+    <audio src="./sound/hihat.wav" data-key="83"></audio>
+    <audio src="./sound/kick.wav" data-key="68"></audio>
+    <audio src="./sound/openhat.wav" data-key="70"></audio>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
